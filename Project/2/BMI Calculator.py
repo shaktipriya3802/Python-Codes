@@ -1,5 +1,5 @@
-weight = 85
-height = 1.85
+weight=float(input("Enter your Weight in Kgs: ))
+height=float(input("Enter your Height in cms: ))
 
 bmi = float(weight / (height ** 2))
 
@@ -10,4 +10,5 @@ if bmi<18.5:
 elif 18.5<=bmi<25:
     print("Congratulations, You have a Normal Weight")
 else:
+
     print("You are Overweight, \n try to lose some weight!")
