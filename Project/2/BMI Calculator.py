@@ -10,6 +10,6 @@ if bmi<18.5:
 elif 18.5<=bmi<25:
     print("Congratulations, You have a Normal Weight")
 else:
-
     print("You are Overweight, \n try to lose some weight!")
+
 
