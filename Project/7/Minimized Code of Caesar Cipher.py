@@ -20,7 +20,7 @@ def caesar(text_,shift_amount):
             shifted_text += alphabet[shifted_position]  # prints the alphabet according to the shifted position
     print(f"Here is the {encrypt_decrypt}d result:", shifted_text)
 
-# While loop to execute it the Caesar Cipher Process repeatedlty
+# While loop to execute it the Caesar Cipher Process repeatedly
 yes_or_no = False
 while not yes_or_no:
     encrypt_decrypt = input("Type 'encode' to encrypt and 'decode' to decrypt:\n").lower()
